@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "ujds12rpIr0yiyX3tCN6EWKQV0x++tuqHfOZGh58w2g=",
+  "Source": "Weather_MinimalApi",
+  "BasePath": "_content/Weather_MinimalApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Weather_MinimalApi/wwwroot",
+      "Source": "Weather_MinimalApi",
+      "ContentRoot": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/",
+      "BasePath": "_content/Weather_MinimalApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/m6avv01jia-ttngz830gk.gz",
+      "SourceId": "Weather_MinimalApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Weather_MinimalApi",
+      "RelativePath": "Index#[.{fingerprint=ttngz830gk}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/Index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rt750a6mc3",
+      "Integrity": "3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/Index.html"
+    },
+    {
+      "Identity": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/Index.html",
+      "SourceId": "Weather_MinimalApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/",
+      "BasePath": "_content/Weather_MinimalApi",
+      "RelativePath": "Index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ttngz830gk",
+      "Integrity": "X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Index.html",
+      "AssetFile": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/m6avv01jia-ttngz830gk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000552791598"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1808"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html",
+      "AssetFile": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html.gz",
+      "AssetFile": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/m6avv01jia-ttngz830gk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94="
+        }
+      ]
+    },
+    {
+      "Route": "Index.ttngz830gk.html",
+      "AssetFile": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/m6avv01jia-ttngz830gk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000552791598"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1808"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttngz830gk"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ="
+        }
+      ]
+    },
+    {
+      "Route": "Index.ttngz830gk.html",
+      "AssetFile": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttngz830gk"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X9AwN3bzHsXThHGxdgZSHXjFm0m+MCrK0IuhxnH7DBQ="
+        }
+      ]
+    },
+    {
+      "Route": "Index.ttngz830gk.html.gz",
+      "AssetFile": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/m6avv01jia-ttngz830gk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttngz830gk"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3/45AC1PtXt24Dqv8guQ1MWankT+BVtRPc1/1xVXr94="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Condition</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+    input {
+      margin-right: 10px;
+      padding: 10px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    button:disabled {
+      background-color: #aaa;
+      cursor: not-allowed;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 15px;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .loader {
+      border: 4px solid #f3f3f3; /* Arka plan halkası */
+      border-top: 4px solid #555; /* Dönen halka */
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h2>Today's Weather</h2>
+</header>
+
+<main>
+  <section>
+    <input type="text" id="cityInput" placeholder="Search for a place" />
+    <button id="getWeatherBtn" onclick="getWeather()" disabled>Get Weather</button>
+  </section>
+
+  <section id="result"></section>
+</main>
+
+<script>
+  // Sayfa yüklendiğinde input'u dinlemeye başla
+  document.addEventListener('DOMContentLoaded', function () {
+    const input = document.getElementById('cityInput');
+    const button = document.getElementById('getWeatherBtn');
+
+    input.addEventListener('input', function () {
+      const value = input.value.trim();
+      button.disabled = value === '';
+    });
+  });
+  document.getElementById('cityInput').addEventListener('keydown', function (e) {
+    if (e.key === 'Enter' && this.value.trim() !== '') {
+      getWeather();
+    }
+  });
+  localStorage.setItem('lastCity', city);
+
+  //Explanation of weather condition
+  function getWeatherDescription(code) {
+    const codes = {
+      0: "Clear",
+      1: "Sunny",
+      2: "Cloudy",
+      3: "Overcast",
+      45: "Foggy",
+      61: "Light Rain",
+      80: "Shower",
+    };
+    return codes[code] || "Not Defined";
+  }
+
+  // ☁️ Hava durumu simgesini döndür
+  function getWeatherIcon(code) {
+    const icons = {
+      0: "☀️",
+      1: "🌤️",
+      2: "⛅",
+      3: "☁️",
+      45: "🌫️",
+      61: "🌧️",
+      80: "🌦️",
+    };
+    return icons[code] || "❓";
+  }
+  async function getWeather() {
+  const cityInput = document.getElementById('cityInput');
+  const button = document.getElementById('getWeatherBtn');
+  const resultDiv = document.getElementById('result');
+
+  // Butonu devre dışı bırak ve yükleme animasyonu göster
+  button.disabled = true;
+  resultDiv.innerHTML = '<div class="loader"></div>';
+
+  const city = cityInput.value.trim().toLowerCase();
+
+  try {
+    const response = await fetch(`/weather?city=${encodeURIComponent(city)}`);
+    if (!response.ok) {
+      throw new Error(`City "${city}" not found. Please check the spelling.`);
+    }
+
+    const data = await response.json();
+    const weather = data.current_weather;
+
+    resultDiv.innerHTML = `
+      <h3>Weather for ${city.charAt(0).toUpperCase() + city.slice(1)} </h3>
+      <p><strong>Today:</strong> ${getWeatherDescription(weather.weathercode)} ${getWeatherIcon(weather.weathercode)}</p>
+      <p><strong>Temperature:</strong> ${weather.temperature} °C</p>
+      <p><strong>Wind Speed:</strong> ${weather.windspeed} km/h</p>
+      <p><strong>Wind Direction:</strong> ${weather.winddirection}°</p>
+      <p><strong>Currently daytime:</strong> ${weather.is_day === 1 ? 'Daytime' : 'Nighttime'}</p>
+    `;
+  } catch (error) {
+    resultDiv.innerHTML = `<p style="color:red;">${error.message || "An unexpected error occurred"}</p>`;
+  } finally {
+    // Eğer input boş değilse butonu tekrar aktif yap
+    if (cityInput.value.trim() !== '') {
+      button.disabled = false;
+    }
+  }
+}
+
+</script>
+
+</body>
+</html>

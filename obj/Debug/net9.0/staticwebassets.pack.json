@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/wwwroot/Index.html",
+      "PackagePath": "staticwebassets/Index.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Weather_MinimalApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Weather_MinimalApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Weather_MinimalApi.props",
+      "PackagePath": "build\\Weather_MinimalApi.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Weather_MinimalApi.props",
+      "PackagePath": "buildMultiTargeting\\Weather_MinimalApi.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Weather_MinimalApi.props",
+      "PackagePath": "buildTransitive\\Weather_MinimalApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
