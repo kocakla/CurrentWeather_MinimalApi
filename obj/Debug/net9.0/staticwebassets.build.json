@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ujds12rpIr0yiyX3tCN6EWKQV0x++tuqHfOZGh58w2g=",
+  "Hash": "byQ7PEae7LZIDBCVC4I8Kfr/JCOocDpukOLPM3jvkZU=",
   "Source": "Weather_MinimalApi",
   "BasePath": "_content/Weather_MinimalApi",
   "Mode": "Default",
@@ -85,7 +85,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+          "Value": "Mon, 28 Jul 2025 17:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -138,7 +138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+          "Value": "Mon, 28 Jul 2025 17:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -175,7 +175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+          "Value": "Mon, 28 Jul 2025 17:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -222,7 +222,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+          "Value": "Mon, 28 Jul 2025 17:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -283,7 +283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+          "Value": "Mon, 28 Jul 2025 17:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -328,7 +328,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Jul 2025 16:21:49 GMT"
+          "Value": "Mon, 28 Jul 2025 17:15:09 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -35,3 +35,4 @@
 /Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/Weather_.0464887E.Up2Date
 /Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/bin/Debug/net9.0/Weather_MinimalApi.staticwebassets.runtime.json
 /Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/compressed/m6avv01jia-ttngz830gk.gz
+/Users/ramazankocak/Documents/dotnetProjects/Weather_MinimalApi/obj/Debug/net9.0/Weather_MinimalApi.sourcelink.json
