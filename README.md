@@ -91,9 +91,4 @@ app.MapGet("/weather", async (string city) =>
     return Results.Content(weatherResponse, "application/json");
 });
 
----
-## Author
 
-Created by kocakla
-Last updated: 2025-07-28
----
